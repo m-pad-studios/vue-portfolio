@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   font-size: large;
+  background-color: #0e2442;
 }
 
 a {
@@ -644,9 +645,12 @@ color: white;
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  
   background-image: url("../img/portfolio/portfolio-4.jpg");
   background-position: center;
+  background-repeat: no-repeat;
+ margin-right: 25px;
+ margin-left: 25px;
 }
 
 .contact .info {

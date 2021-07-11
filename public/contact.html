@@ -28,9 +28,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/styles.css"  />
-  <link rel="stylesheet" href="assets/css/blog-cards.css" />
 
-  
 <script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
 
   <!-- =======================================================
@@ -72,9 +70,7 @@
       <nav class="nav-menu">
         <ul>
           <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="./about.html"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="./contact.html"><i class="bx bx-envelope"></i> Contact</a></li>
-
+          <li class="active"><a href="about.html"><i class="bx bx-user"></i> <span>About</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -83,57 +79,64 @@
   </header>
   <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-down">
-      <h1>Mike Parker</h1>
-      <p>I'm a <span class="typed" data-typed-items="Weight Lifter, Web Developer, Freelancer,  Health Aficionado, Coder"></span></p>
-    </div>
-   
-  </section>
-  <!-- End Hero -->
+
 
   <main id="main">
-
-    <section id="about" class="dark">
-      <div class="container-fluid">
-        <div>
-            <figure>
-                <div class="media" style="background-image: url('./assets/img/portfolio/portfolio-5.jpg'); "></div>
-                <figcaption><svg viewBox="0 0 400 200" version="1.1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                            <mask id="mask" x="0" y="0" width="100%" height="100%">
-                                <rect id="alpha" x="0" y="0" width="100%" height="100%"></rect><text class="title" dx="50%" dy="2.5em">LIFT</text><text class="title" dx="50%" dy="3.5em">HARD</text><text class="title" dx="50%" dy="4.5em">BLOG</text>
-                            </mask>
-                        </defs>
-                        <rect id="base" x="0" y="0" width="100%" height="100%"></rect>
-                    </svg>
-                   
-                </figcaption><a href="./blog.html"></a>
-            </figure>
-            
-           
-            <figure>
-              <div class="media" style="background-image: url('./assets/img/portfolio/portfolio-6.jpg');"></div>
-              <figcaption  style="margin-left: 575px;"><svg viewBox="0 0 400 200" version="1.1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                      <defs>
-                          <mask id="mask-2" x="0" y="0" width="100%" height="100%">
-                              <rect id="bravo" x="0" y="0" width="100%" height="200%"></rect><text class="title" dx="50%" dy="2.5em">Supplements</text><text class="title" dx="50%" dy="3.5em">&</text><text class="title" dx="50%" dy="4.5em">Nutrition Blog</text>
-                          </mask>
-                      </defs>
-                      <rect id="base-2" x="0" y="0" width="100%" height="100%"></rect>
-                  </svg>
-                 
-              </figcaption><a href="supps_blog.html"></a>
-          </figure>
-
-          
-        </div>
+ <!-- ======= Hero Section ======= -->
+<section>
+    <div class="jumbotron filter" style="padding-top: 15px; margin-top: 25px; margin-right: 25px; margin-left: 25px;" >
+        <h1>&bull; Thank you for stopping by and keep in Touch &bull;</h1>
+     
     </div>
+</section>
+  <!-- End Hero -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact" >
+      <div class="container" >
+        <div class="row" data-aos="fade-in">
+          </div>
+            <div id="container" class="filter">
+              <h1 style="padding-top: 50px;">Contact Form</h1>
+              <div class="underline">
+              </div>
+           
+              <form name="contact" method="POST"  data-netlify="true" id="contact_form">
+                <div class="name">
+                  <label for="name"></label>
+                  <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                  <label for="email"></label>
+                  <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                </div>
+                <div class="telephone">
+                  <label for="name"></label>
+                  <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+                </div>
+                <div class="subject">
+                  <label for="subject"></label>
+                  <select placeholder="Subject line" name="subject" id="subject_input" required>
+                    <option disabled hidden selected>Subject line</option>
+                    <option>I'd like to start a project</option>
+                    <option>I'd like to ask a question</option>
+                    <option>I'd like to make a proposal</option>
+                  </select>
+                </div>
+                <div class="message">
+                  <label for="message"></label>
+                  <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                  <button type="submit" action="/thankyou" id="form_button">Send</button>
+                </div>
+              </form><!-- // End form -->
+            </div><!-- // End #container -->
+          </div>
 
+        </div>
 
-    </section>
-
+      </div>
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -141,14 +144,14 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-       &copy; Copyright <strong><span>M-PAD Studios</span></strong> 
+        &copy; Copyright <strong><span>M-PAD Studios</span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-       <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> --> 
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> --> 
       </div>
     </div>
   </footer><!-- End  Footer -->

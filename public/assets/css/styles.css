@@ -78,7 +78,8 @@ svg #bravo {
 }
 
 svg #base-2 {
-  fill:rgb(7, 9, 161);
+  fill:rgb(255, 255, 255);
   -webkit-mask: url(#mask-2);
   mask: url(#mask-2);
+
 }
