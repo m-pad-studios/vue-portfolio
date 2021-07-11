@@ -214,6 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+ 
 }
 
 #hero:before {
@@ -1217,3 +1218,4 @@ textarea {
 .filter {
   background-color: rgba(20, 157, 221, 0.75);
 }
+
