@@ -57,7 +57,7 @@ svg text {
 }
 
 svg #alpha {
-  fill: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255, 0.75);
 }
 
 svg .title {
@@ -78,7 +78,7 @@ svg #bravo {
 }
 
 svg #base-2 {
-  fill:rgb(255, 255, 255);
+  fill:rgb(255, 255, 255, 0.75);
   -webkit-mask: url(#mask-2);
   mask: url(#mask-2);
 
