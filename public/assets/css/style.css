@@ -191,6 +191,40 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
 }
 
+/* Desktop Navigation */
+.desktop-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+.desktop-nav-toggle i {
+  color: #149ddd;
+}
+
+.desktop-nav-active {
+  visibility: hidden;
+}
+
+.desktop-nav-active #header {
+  visibility: hidden;
+}
+
+.desktop-nav-active .mobile-nav-toggle i {
+  color: #fff;
+}
+
+
+
 .mobile-nav-toggle i {
   color: #149ddd;
 }
@@ -398,6 +432,7 @@ color: white;
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+margin-right: 1px;
 
 }
 
@@ -878,6 +913,7 @@ color: white;
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+ 
 }
 
 .portfolio-details .portfolio-details-container {
@@ -896,7 +932,7 @@ color: white;
 
 .portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
-  margin: 0 10px 0 0;
+  margin: 10px 10px 10px 10px;
   width: 12px;
   height: 12px;
   border-radius: 50%;

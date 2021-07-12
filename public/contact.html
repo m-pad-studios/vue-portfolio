@@ -45,10 +45,27 @@
   gtag('js', new Date());
 
   gtag('config', 'G-70K0QDFJZW');
+
+  
+function closeMenu() {
+
+if($("#header").is(":hidden")) { 
+  $("#header").fadeIn();
+ 
+ document.getElementById("bod").style.marginLeft = "0px"
+  
+}else{
+   
+ document.getElementById("bod").style.marginLeft = "-300px"
+$("#header").fadeOut();
+}
+
+
+}
 </script>
 </head>
 
-<body>
+<body id="bod">
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -82,6 +99,8 @@
 
 
   <main id="main">
+    <button type="button" class="desktop-nav-toggle" id="tog-nav" onclick="closeMenu()"><i class="icofont-navigation-menu"></i></button>
+
  <!-- ======= Hero Section ======= -->
 <section>
     <div class="jumbotron filter" style="padding-top: 15px; margin-top: 25px; margin-right: 25px; margin-left: 25px;" >
