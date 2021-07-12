@@ -53,14 +53,15 @@
 function closeMenu() {
 
  if($("#header").is(":hidden")) { 
-   $("#header").fadeIn();
-  
-  document.getElementById("bod").style.marginLeft = "0px"
-   
+ 
+  $("#header").fadeIn();
+  document.getElementById("bod").style.marginLeft = "0px";
+  document.getElementById("header").style.visibility = "visible";
+
  }else{
-    
-  document.getElementById("bod").style.marginLeft = "-300px"
- $("#header").fadeOut();
+  $("#header").fadeOut();
+  document.getElementById("bod").style.marginLeft = "-300px";
+ 
  }
 
 }
@@ -68,7 +69,7 @@ function closeMenu() {
 </script>
 </head>
 
-<body id="bod" style="margin-left: -300px;">
+<body id="bod" >
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
