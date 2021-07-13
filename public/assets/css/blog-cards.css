@@ -7,19 +7,7 @@ body {
   text-rendering: optimizeLegibility;
   font-weight: initial;
 }
-.jumbotron {
-  background-image: url("../img/portfolio/portfolio-2.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 600px;
-}
 
-.jumbotron-2 {
-  background-image: url("../img/go-hard-blog/go-hard-1.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 600px;
-}
 
 hr {
   border: none;
@@ -90,6 +78,93 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   font-size: 2.5rem;
+}
+
+/* Jumbotrons */
+.jumbotron {
+  background-image: url("../img/portfolio/portfolio-2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.jumbotron-2 {
+  background-image: url("../img/go-hard-blog/go-hard-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    #art-title {
+      margin-left: 280px;
+      font-size: small;
+    }
+
+  .jumbotron-2 {
+    -ms-flex-wrap: inherit;
+    flex-wrap: inherit;
+margin-left: 200px;
+margin-right: -20px;
+  }
+  .jumbotron-2 .jumbotron-2__title {
+    font-size: 2rem;
+  }
+  .jumbotron-2 .jumbotron-2__tagbox {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+  }
+  .jumbotron-2 .jumbotron-2__img {
+    max-width: 300px;
+    max-height: 100%;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  }
+  .jumbotron-2 .jumbotron-2__text {
+    padding: 3rem;
+    width: 100%;
+  }
+  .jumbotron-2 .media.jumbotron-2__text:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #18151f;
+    top: -20%;
+    height: 130%;
+    width: 55px;
+  }
+  .jumbotron-2:hover .jumbotron-2__img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .jumbotron-2:nth-child(2n + 1) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .jumbotron-2:nth-child(2n + 0) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .jumbotron-2:nth-child(2n + 1) .jumbotron-2__text::before {
+    left: -12px !important;
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  .jumbotron-2:nth-child(2n + 0) .jumbotron-2__text::before {
+    right: -12px !important;
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
 }
 
 /* Cards */
