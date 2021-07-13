@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +29,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/styles.css"  />
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
-<script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
 
   <!-- =======================================================
   * Template Name: iPortfolio - v1.5.1
@@ -38,31 +39,31 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-70K0QDFJZW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-70K0QDFJZW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-70K0QDFJZW');
-
-  
-function closeMenu() {
-
-if($("#header").is(":hidden")) { 
-  $("#header").fadeIn();
- 
- document.getElementById("bod").style.marginLeft = "0px"
-  
-}else{
-   
- document.getElementById("bod").style.marginLeft = "-300px"
-$("#header").fadeOut();
-}
+    gtag('config', 'G-70K0QDFJZW');
 
 
-}
-</script>
+    function closeMenu() {
+
+      if ($("#header").is(":hidden")) {
+        $("#header").fadeIn();
+
+        document.getElementById("bod").style.marginLeft = "0px"
+
+      } else {
+
+        document.getElementById("bod").style.marginLeft = "-300px"
+        $("#header").fadeOut();
+      }
+
+
+    }
+  </script>
 </head>
 
 <body id="bod">
@@ -74,13 +75,12 @@ $("#header").fadeOut();
   <header id="header">
     <div class="d-flex flex-column">
 
-  
+
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="./services.html"><i class="bx bx-plus"></i> Services</a></li>
-          <li class="active"><a href="about.html"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="about.html"><i class="bx bx-user"></i> <span>About</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -92,60 +92,62 @@ $("#header").fadeOut();
 
 
   <main id="main">
-    <button type="button" class="desktop-nav-toggle d-none d-sm-block" id="tog-nav" onclick="closeMenu()"><i class="icofont-navigation-menu"></i></button>
+    <button type="button" class="desktop-nav-toggle d-none d-sm-block" id="tog-nav" onclick="closeMenu()"><i
+        class="icofont-navigation-menu"></i></button>
 
- <!-- ======= Hero Section ======= -->
-<section>
-    <div class="jumbotron filter" style="padding-top: 15px; margin-top: 25px; margin-right: 25px; margin-left: 25px;" >
+    <!-- ======= Hero Section ======= -->
+    <section>
+      <div class="jumbotron filter" style="padding-top: 15px; margin-top: 25px; margin-right: 25px; margin-left: 25px;">
         <h1>&bull; Thank you for stopping by and keep in Touch &bull;</h1>
-     
-    </div>
-</section>
-  <!-- End Hero -->
+
+      </div>
+    </section>
+    <!-- End Hero -->
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" >
-      <div class="container" >
+    <section id="contact" class="contact">
+      <div class="container">
         <div class="row" data-aos="fade-in">
-          </div>
-            <div id="container" class="filter">
-              <h1 style="padding-top: 50px;">Contact Form</h1>
-              <div class="underline">
-              </div>
-           
-              <form name="contact" method="POST"  data-netlify="true" id="contact_form">
-                <div class="name">
-                  <label for="name"></label>
-                  <input type="text" placeholder="My name is" name="name" id="name_input" required>
-                </div>
-                <div class="email">
-                  <label for="email"></label>
-                  <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
-                </div>
-                <div class="telephone">
-                  <label for="name"></label>
-                  <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
-                </div>
-                <div class="subject">
-                  <label for="subject"></label>
-                  <select placeholder="Subject line" name="subject" id="subject_input" required>
-                    <option disabled hidden selected>Subject line</option>
-                    <option>I'd like to start a project</option>
-                    <option>I'd like to ask a question</option>
-                    <option>I'd like to make a proposal</option>
-                  </select>
-                </div>
-                <div class="message">
-                  <label for="message"></label>
-                  <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
-                </div>
-                <div class="submit">
-                  <button type="submit" action="/thankyou" id="form_button">Send</button>
-                </div>
-              </form><!-- // End form -->
-            </div><!-- // End #container -->
+        </div>
+        <div id="container" class="filter">
+          <h1 style="padding-top: 50px;">Contact Form</h1>
+          <div class="underline">
           </div>
 
-        </div>
+          <form name="contact" method="POST" data-netlify="true" id="contact_form">
+            <div class="name">
+              <label for="name"></label>
+              <input type="text" placeholder="My name is" name="name" id="name_input" required>
+            </div>
+            <div class="email">
+              <label for="email"></label>
+              <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+            </div>
+            <div class="telephone">
+              <label for="name"></label>
+              <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+            </div>
+            <div class="subject">
+              <label for="subject"></label>
+              <select placeholder="Subject line" name="subject" id="subject_input" required>
+                <option disabled hidden selected>Subject line</option>
+                <option>I'd like to start a project</option>
+                <option>I'd like to ask a question</option>
+                <option>I'd like to make a proposal</option>
+              </select>
+            </div>
+            <div class="message">
+              <label for="message"></label>
+              <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5"
+                required></textarea>
+            </div>
+            <div >
+              <button type="submit" action="/thankyou" id="form_button">Send</button>
+            </div>
+          </form><!-- // End form -->
+        </div><!-- // End #container -->
+      </div>
+
+      </div>
 
       </div>
     </section><!-- End Contact Section -->
@@ -163,7 +165,7 @@ $("#header").fadeOut();
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> --> 
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
       </div>
     </div>
   </footer><!-- End  Footer -->
