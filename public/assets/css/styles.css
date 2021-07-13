@@ -83,3 +83,14 @@ svg #base-2 {
   mask: url(#mask-2);
 
 }
+
+svg #camo {
+  fill: rgb(255, 255, 255);
+}
+
+svg #base-3 {
+  fill:rgb(255, 255, 255, 0.75);
+  -webkit-mask: url(#mask-3);
+  mask: url(#mask-3);
+
+}
