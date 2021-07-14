@@ -94,3 +94,12 @@ svg #base-3 {
   mask: url(#mask-3);
 
 }
+
+
+  @media screen and (min-width: 600px) {
+
+#fig-cap {
+ margin-left: 590px;
+ 
+  }
+  }

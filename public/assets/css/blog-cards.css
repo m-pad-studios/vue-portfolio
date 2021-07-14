@@ -86,6 +86,7 @@ a:hover {
   color: #bbc3c8;
 }
 
+
 /* Jumbotrons */
 .jumbotron {
   background-image: url("../img/portfolio/portfolio-2.jpg");
@@ -99,7 +100,8 @@ a:hover {
   background-size: cover;
   background-position: center;
   height: 400px;
-}
+} 
+ 
 @media screen and (min-width: 300px)  {
   p {
     margin-left: 300px;
@@ -109,9 +111,11 @@ a:hover {
     margin: 10px 10px 30px 108px;
   }
 
+  
   #workout-table {
     margin-left: 300px;
     width: 50%;
+    background-color: #bbc3c8;
   }
   #author {
     margin-left: 200px;

@@ -291,6 +291,8 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 3px solid #149ddd;
 }
 
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -674,6 +676,7 @@ margin-right: 1px;
   .testimonials {
     margin: 30px 10px;
   }
+ 
 }
 
 /*--------------------------------------------------------------
@@ -1226,7 +1229,7 @@ textarea {
   h1 {
     font-size: 26px;
   }
-  
+
   .underline {
     width: 68px;
   }
@@ -1258,4 +1261,3 @@ textarea {
 .filter {
   background-color: rgba(20, 157, 221, 0.75);
 }
-
