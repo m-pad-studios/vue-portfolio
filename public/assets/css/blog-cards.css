@@ -100,7 +100,7 @@ a:hover {
   background-position: center;
   height: 600px;
 }
-@media screen and (min-width: 769px)  {
+@media screen and (min-width: 300px)  {
   p {
     margin-left: 300px;
   }
@@ -110,7 +110,7 @@ a:hover {
   }
 
   #author {
-    margin-left: 100px;
+    margin-left: 200px;
   }
 
   #art-title {
