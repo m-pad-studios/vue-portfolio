@@ -100,17 +100,17 @@ a:hover {
   background-position: center;
   height: 600px;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 780px) and (-webkit-min-device-pixel-ratio: 3) {
+@media screen and (min-width: 769px)  {
   p {
-    margin-left: 600px;
+    margin-left: 300px;
   }
 
   hr{
-    margin: 20px 20px 20px 108px;
+    margin: 10px 10px 10px 108px;
   }
 
   #author {
-    margin-left: 200px;
+    margin-left: 100px;
   }
 
   #art-title {
