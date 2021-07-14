@@ -40,7 +40,7 @@ p {
   font-size: 16px;
   line-height: 2.5;
   text-indent: 30px;
-  
+ 
 }
 
 .date {
@@ -100,39 +100,9 @@ a:hover {
   background-size: cover;
   background-position: center;
   height: 400px;
+ 
 } 
  
-@media screen and (min-width: 300px)  {
-  p {
-    margin-left: 300px;
-  }
-
-  hr{
-    margin: 10px 10px 30px 108px;
-  }
-
-  
-  #workout-table {
-    margin-left: 300px;
-    width: 50%;
-    background-color: #bbc3c8;
-  }
-  #author {
-    margin-left: 200px;
-  }
-
-  #art-title {
-    margin-left: 280px;
-    font-size: small;
-  }
-
-  .jumbotron-2 {
-    -ms-flex-wrap: inherit;
-    flex-wrap: inherit;
-    margin-left: 200px;
-    margin-right: -20px;
-  }
-}
 
 /* Cards */
 .postcard {
@@ -529,3 +499,68 @@ a:hover {
   }
 }
 /*# sourceMappingURL=blog-cards.css.map */
+
+@media screen and (min-width: 300px)  {
+  p {
+    margin-left: 300px;
+  }
+
+  hr{
+    margin: 10px 10px 30px 108px;
+  }
+
+  
+  #workout-table {
+    margin-left: 300px;
+    width: 50%;
+    background-color: #bbc3c8;
+  }
+  #author {
+    margin-left: 200px;
+  }
+
+  #art-title {
+    margin-left: 280px;
+    font-size: small;
+  }
+
+  .jumbotron-2 {
+    -ms-flex-wrap: inherit;
+    flex-wrap: inherit;
+    margin-left: 200px;
+    margin-right: -20px;
+  }
+}
+
+
+@media screen and (min-width: 1200px)  {
+  p {
+    margin-left: 0px;
+  }
+
+  hr{
+    margin: 0px 10px 20px -100px;
+  }
+
+  
+  #workout-table {
+    margin-left: 300px;
+    width: 50%;
+    background-color: #bbc3c8;
+  }
+  #author {
+    margin-left: 50px;
+  }
+
+  #art-title {
+    margin-left: 80px;
+    font-size: small;
+  }
+
+  .jumbotron-2 {
+    -ms-flex-wrap: inherit;
+    flex-wrap: inherit;
+    margin-left: 0px;
+    margin-right: -20px;
+  }
+}
