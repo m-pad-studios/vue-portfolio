@@ -38,7 +38,7 @@ p {
   color: #ffffff;
   font-family: "Verdana", sans-serif;
   font-size: 16px;
-  line-height: 3;
+  line-height: 2;
   text-indent: 30px;
   
 }
@@ -102,7 +102,7 @@ a:hover {
 }
 @media screen and (min-width: 300px)  {
   p {
-    margin-left: 500px;
+    margin-left: 300px;
   }
 
   hr{
