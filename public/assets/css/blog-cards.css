@@ -38,7 +38,7 @@ p {
   color: #ffffff;
   font-family: "Verdana", sans-serif;
   font-size: 16px;
-  line-height: 2;
+  line-height: 2.5;
   text-indent: 30px;
   
 }
@@ -109,6 +109,10 @@ a:hover {
     margin: 10px 10px 30px 108px;
   }
 
+  #workout-table {
+    margin-left: 300px;
+    width: 50%;
+  }
   #author {
     margin-left: 200px;
   }
