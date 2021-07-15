@@ -103,6 +103,13 @@ a:hover {
  
 } 
  
+.jumbotron-3 {
+  background-image: url("../img/portfolio/portfolio-6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+ 
+} 
 
 /* Cards */
 .postcard {
