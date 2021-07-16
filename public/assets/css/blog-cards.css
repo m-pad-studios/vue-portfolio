@@ -515,7 +515,11 @@ a:hover {
   hr{
     margin: 10px 10px 30px 108px;
   }
-
+#workout-table-2 {
+  margin-left: 300px;
+  width: 1px;
+  background-color: #bbc3c8;
+}
   
   #workout-table {
     margin-left: 300px;
