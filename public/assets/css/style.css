@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 .desktop-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 25px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -239,16 +239,17 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  padding-top: 20px;
+  margin-top: 20px;
   width: 100%;
-  height: 500px;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 350px;
+  background: url("../img/blank-bg.png");
   background-size: cover;
  
 }
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -261,6 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-left: 550px;
 }
 
 #hero h1 {
@@ -268,18 +270,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #hero p {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -294,6 +296,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+
+  #hero {
+    background: url("../img/blank-bg.png");
+
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -303,6 +311,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  
+#hero .hero-container {
+  margin-left: 0px;   
+
+
+}
 }
 
 /*--------------------------------------------------------------
