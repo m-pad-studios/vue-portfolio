@@ -68,7 +68,7 @@ svg .title {
 }
 
 svg #base {
-  fill:rgba(75, 73, 73, 0.75);
+  fill:rgba(75, 73, 73);
   -webkit-mask: url(#mask);
   mask: url(#mask);
 }
@@ -78,7 +78,7 @@ svg #bravo {
 }
 
 svg #base-2 {
-  fill:rgba(255, 255, 255, 0.75);
+  fill:rgba(255, 255, 255);
   -webkit-mask: url(#mask-2);
   mask: url(#mask-2);
 
@@ -89,7 +89,7 @@ svg #camo {
 }
 
 svg #base-3 {
-  fill:rgba(75, 73, 73, 0.9);
+  fill:rgba(75, 73, 73);
   -webkit-mask: url(#mask-3);
   mask: url(#mask-3);
 
