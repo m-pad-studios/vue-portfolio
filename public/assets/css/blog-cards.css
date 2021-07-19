@@ -92,25 +92,25 @@ a:hover {
 
 /* Jumbotrons */
 .jumbotron {
-  background-image: url("../img/portfolio/portfolio-2.jpg");
+  background: url("./img/go-hard-blog/go-hard-1.jpg");
   background-size: cover;
   background-position: center;
-  height: 600px;
+ 
 }
 
 .jumbotron-2 {
-  background-image: url("../img/go-hard-blog/go-hard-1.jpg");
+  background: url("./img/go-hard-blog/go-hard-1.jpg");
   background-size: cover;
   background-position: center;
-  height: 400px;
+
  
 } 
  
 .jumbotron-3 {
-  background-image: url("../img/portfolio/portfolio-6.jpg");
+  background: url("../img/portfolio/portfolio-6.jpg");
   background-size: cover;
   background-position: center;
-  height: 400px;
+  
  
 } 
 
