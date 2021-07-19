@@ -520,7 +520,7 @@ a:hover {
   }
 #workout-table-2 {
   margin-left: 300px;
-  
+  overflow-x: scroll;
   background-color: #bbc3c8;
 }
   
