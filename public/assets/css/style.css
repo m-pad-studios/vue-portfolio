@@ -820,6 +820,10 @@ textarea {
   color: #F2F3EB;
 }
 
+#bod {
+  margin-left: -300px;
+}
+
 @media screen and (max-width: 768px) {
   #container {
     margin: 20px auto;
