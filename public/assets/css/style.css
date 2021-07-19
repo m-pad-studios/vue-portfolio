@@ -223,6 +223,114 @@ left: 0;
   color: #fff;
 }
 
+
+/*--------------------------------------------------------------
+# About Me Section
+--------------------------------------------------------------*/
+#about-me {
+  margin-left: -300px;
+}
+
+/*--------------------------------------------------------------
+# Me Section
+--------------------------------------------------------------*/
+#me {
+
+margin-right: 600px;
+margin-bottom: -375px;
+}
+
+@media (max-width: 768px) {
+#me {
+  margin-right: 0px;
+
+}
+}
+
+/*--------------------------------------------------------------
+# Hero Title Section
+--------------------------------------------------------------*/
+#hero-title {
+  padding-top: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 450px;
+  background: url("../img/blank-bg.png");
+  background-size: cover;
+ 
+}
+
+#hero-title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#hero-title .hero-title-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+  margin-left: 550px;
+margin-bottom: 235px;
+}
+
+#hero-title h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgb(0, 0, 0);
+}
+
+#hero-title p {
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-title p span {
+  color: rgb(0, 0, 0);
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+
+
+@media (min-width: 1024px) {
+  #hero-title {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #hero-title {
+    background: url("../img/blank-bg.png");
+
+  }
+
+  #hero-title h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-title h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  
+#hero-title .hero-title-container {
+  margin-left: 0px;   
+margin-top: 150px;
+}
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -230,10 +338,11 @@ left: 0;
   padding-top: 20px;
   margin-top: 20px;
   width: 100%;
-  height: 350px;
+  height: 450px;
   background: url("../img/blank-bg.png");
   background-size: cover;
- 
+  color: teal;
+
 }
 
 #hero:before {
@@ -251,6 +360,7 @@ left: 0;
   z-index: 2;
   min-width: 300px;
   margin-left: 550px;
+margin-bottom: 235px;
 }
 
 #hero h1 {
@@ -293,6 +403,7 @@ left: 0;
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    color: teal;
   }
   #hero h2 {
     font-size: 18px;
@@ -302,11 +413,102 @@ left: 0;
   
 #hero .hero-container {
   margin-left: 0px;   
-
-
+padding-top: 150px;
+margin-top: 200px;
+margin-bottom: 25px;
 }
 }
 
+
+/*--------------------------------------------------------------
+# Hero1 Section
+--------------------------------------------------------------*/
+#hero1 {
+  padding-top: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+  background: url("../img/blank-bg.png");
+  background-size: cover;
+  color: white;
+}
+
+#hero1:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#hero1 .hero1-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+  margin-left: 550px;
+  color: teal;
+}
+
+#hero1 h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: teal;
+
+}
+
+#hero1 p {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero1 p span {
+  color: white;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+
+
+@media (min-width: 1024px) {
+  #hero1 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #hero1 {
+    background: url("../img/blank-bg.png");
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+  }
+
+  #hero1 h1 {
+    font-size: 15px;
+    line-height: 36px;
+    margin-left: 195px;
+  }
+  #hero1 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  
+#hero1 .hero1-container {
+  margin-left: 0px;   
+}
+}
 /*--------------------------------------------------------------
 # Hero2 Section
 --------------------------------------------------------------*/
@@ -765,6 +967,45 @@ color: white;
 
 
 /*--------------------------------------------------------------
+#Blog Footer
+--------------------------------------------------------------*/
+#blog-footer {
+  padding: 50px;
+  color: #f4f6fd;
+  font-size: 14px;
+ 
+  left: 0;
+  bottom: 0;
+
+  z-index: 9999;
+  background: #040b14;
+}
+
+#blog-footer .copyright {
+  text-align: center;
+}
+
+#blog-footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+
+@media (max-width: 1199px) {
+  #blog-footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+#blog-footer {
+  padding-left: 250px;
+}
+}
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -797,8 +1038,6 @@ color: white;
     padding-right: 20px 15px;
   }
 }
-
-
 
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -985,6 +1224,7 @@ textarea {
 
 #bod {
   margin-left: 0px;
+  margin-top: -20px;
 }
 
 @media screen and (max-width: 768px) {

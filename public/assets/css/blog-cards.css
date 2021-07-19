@@ -569,6 +569,7 @@ a:hover {
   #art-title {
     margin-left: 80px;
     font-size: small;
+   
   }
 
   .jumbotron-2 {
@@ -576,5 +577,12 @@ a:hover {
     flex-wrap: inherit;
     margin-left: 0px;
     margin-right: -20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #art-title {
+ 
+    color: teal;
   }
 }
