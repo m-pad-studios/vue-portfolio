@@ -2,7 +2,17 @@
 for = "/*"
 
 [headers.values]
-  Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self'; script-src-elem 'self' 'unsafe-inline'; font-src 'self' data:;"
+  Content-Security-Policy = "default-src 'none'; 
+  base-uri 'none'; 
+  form-action 'none'; 
+  frame-ancestors 'none'; 
+  img-src 'self'; 
+  media-src 'self'; 
+  object-src 'none'; 
+  script-src 'self' 'unsafe-inline'; 
+  style-src 'self'; 
+  script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://platform.twitter.com/widgets.js; 
+  font-src 'self' data:;"
           Referrer-Policy = "same-origin"
 Strict-Transport-Security = "max-age=15768000"
    X-Content-Type-Options = "nosniff"
