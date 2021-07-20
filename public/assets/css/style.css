@@ -423,8 +423,8 @@ margin-top: 150px;
   #hero-title {
     background: url("../img/blank-bg.png");
     padding-top: 20px;
-    margin-top: 20px;
-    margin-left: 50px;
+ 
+
     width: 100%;
     height: 350px;
     background-size: cover;
@@ -433,7 +433,7 @@ margin-top: 150px;
   #hero-title h1 {
     font-size: 15px;
     line-height: 36px;
-    margin-left: 195px;
+   
   }
   #hero-title h2 {
     font-size: 18px;
