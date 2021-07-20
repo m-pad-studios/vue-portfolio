@@ -2,7 +2,17 @@
 for = "/*"
 
 [headers.values]
-  Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none';  style-src-elem 'self' ; font-src 'self'; font-src-elem 'self'; script-src-elem 'self';"
+  Content-Security-Policy = "default-src 'none'; 
+  base-uri 'none'; 
+  form-action 'none'; 
+  frame-ancestors 'none'; 
+  img-src 'self'; 
+  media-src 'self'; 
+  object-src 'none';  
+  style-src-elem 'self' ; 
+  font-src 'self'; 
+  
+  script-src-elem 'self';"
           Referrer-Policy = "same-origin"
 Strict-Transport-Security = "max-age=15768000"
    X-Content-Type-Options = "nosniff"
