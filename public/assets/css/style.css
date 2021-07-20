@@ -741,12 +741,11 @@ color: white;
   background-image: url("../img/portfolio/portfolio-4.jpg");
   background-position: center;
   background-repeat: no-repeat;
- margin-right: 25px;
- margin-left: 25px;
+
 }
 
 .contact .info {
-  padding: 30px;
+ 
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -767,7 +766,7 @@ color: white;
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
+ 
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -795,7 +794,7 @@ color: white;
   background: #333;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -816,7 +815,7 @@ color: white;
 
 .contact .php-email-form {
   width: 100%;
-  padding: 30px;
+ 
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -1270,4 +1269,5 @@ textarea {
 
 .filter {
   background-color: rgba(20, 157, 221, 0.75);
+
 }
