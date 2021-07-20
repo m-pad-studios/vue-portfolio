@@ -2,7 +2,7 @@
 for = "/*"
 
 [headers.values]
-  Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none';  style-src 'self'; font-src 'self'; script-src-elem 'self' https://platform.twitter.com/widgets.js https://platform.twitter.com/js/button.5573c974dc31bbdab5ea7923a0bd5cf3.js https://www.googletagmanager.com/gtag/js?id=G-70K0QDFJZW;"
+  Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none';  style-src 'self'; font-src 'self'; script-src-elem 'self';"
           Referrer-Policy = "same-origin"
 Strict-Transport-Security = "max-age=15768000"
    X-Content-Type-Options = "nosniff"
