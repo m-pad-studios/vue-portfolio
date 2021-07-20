@@ -1,6 +1,9 @@
 
 /* This pen */
-
+#final-words {
+  padding-left: 25px;
+padding-right: 25px;
+}
 
 hr {
   border: none;
@@ -52,6 +55,7 @@ p {
 }
 
 .dark {
+ 
   background: #110f16;
 }
 
@@ -92,7 +96,6 @@ a:hover {
 
 /* Jumbotrons */
 .jumbotron {
-  background: url("./img/go-hard-blog/go-hard-1.jpg");
   background-size: cover;
   background-position: center;
  
@@ -509,7 +512,13 @@ a:hover {
   }
 }
 /*# sourceMappingURL=blog-cards.css.map */
+#workout-table-2 {
+ 
 
+    background-color: #bbc3c8;
+
+  }
+  
 @media screen and (min-width: 300px)  {
   p {
     margin-left: 300px;
@@ -518,11 +527,6 @@ a:hover {
   hr{
     margin: 10px 10px 30px 108px;
   }
-#workout-table-2 {
-  margin-left: 300px;
-  overflow-x: scroll;
-  background-color: #bbc3c8;
-}
   
   #workout-table {
     margin-left: 300px;
@@ -546,7 +550,17 @@ a:hover {
   }
 }
 
-
+@media (max-width: 768px) {
+  .dark {
+    overflow-x: scroll;
+  }
+  #workout-table-2 {
+margin-left: 300px;
+  overflow-x: scroll;
+  background-color: #bbc3c8;
+  width: 50%;
+}
+}
 @media screen and (min-width: 1200px)  {
   p {
     margin-left: 0px;

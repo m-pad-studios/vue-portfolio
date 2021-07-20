@@ -4,6 +4,7 @@
 --------------------------------------------------------------*/
 body {
   margin-left: -300px;
+
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -231,8 +232,24 @@ left: 0;
   margin-left: 0px;
   padding-left: 25px;
   padding-right: 15px;
+  background-image: url("../img/blank-bg.png");
+ 
 }
 
+#about-me p{
+  color: rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+  #about-me {
+    margin-left: -300px;
+  background-image: url("../img/blank-bg.png");
+
+  }
+
+  #about-me p{
+      color: rgb(0, 0, 0);
+  }
+  }
 /*--------------------------------------------------------------
 # Me Section
 --------------------------------------------------------------*/
@@ -250,13 +267,103 @@ margin-bottom: -375px;
 }
 
 /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero-contact {
+  
+padding-top: 100px;
+  width: 100%;
+  height: 250px;
+  background: url("../img/blank-bg.png");
+  background-size: cover;
+  color: teal;
+
+}
+
+#hero-contact:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#hero-contact .hero-contact-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+  margin-left: 550px;
+margin-bottom: 235px;
+}
+
+#hero-contact h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgb(0, 0, 0);
+}
+
+#hero-contact p {
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-contact p span {
+  color: rgb(0, 0, 0);
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+
+
+@media (min-width: 1024px) {
+  #hero-contact {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #hero-contact {
+    background: url("../img/blank-bg.png");
+
+  }
+
+  #hero-contact h1 {
+    font-size: 28px;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+  }
+  #hero-contact h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  
+#hero-contact .hero-contact-container {
+  margin-left: 0px;   
+padding-top: 150px;
+margin-top: 200px;
+margin-bottom: 25px;
+}
+
+
+}
+
+/*--------------------------------------------------------------
 # Hero Title Section
 --------------------------------------------------------------*/
 #hero-title {
   padding-top: 20px;
-  margin-top: 20px;
+
   width: 100%;
-  height: 450px;
+  height: 350px;
   background: url("../img/blank-bg.png");
   background-size: cover;
  
@@ -278,6 +385,7 @@ margin-bottom: -375px;
   min-width: 300px;
   margin-left: 550px;
 margin-bottom: 235px;
+margin-top: 150px;
 }
 
 #hero-title h1 {
@@ -314,12 +422,18 @@ margin-bottom: 235px;
 
   #hero-title {
     background: url("../img/blank-bg.png");
-
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
   }
 
   #hero-title h1 {
-    font-size: 28px;
+    font-size: 15px;
     line-height: 36px;
+    margin-left: 195px;
   }
   #hero-title h2 {
     font-size: 18px;
@@ -331,6 +445,7 @@ margin-bottom: 235px;
   margin-left: 0px;   
 margin-top: 150px;
 }
+
 }
 
 /*--------------------------------------------------------------
@@ -338,7 +453,7 @@ margin-top: 150px;
 --------------------------------------------------------------*/
 #hero {
   padding-top: 20px;
-  margin-top: 20px;
+
   width: 100%;
   height: 450px;
   background: url("../img/blank-bg.png");
@@ -405,7 +520,7 @@ margin-bottom: 235px;
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    color: teal;
+    color: rgb(0, 0, 0);
   }
   #hero h2 {
     font-size: 18px;
@@ -419,6 +534,8 @@ padding-top: 150px;
 margin-top: 200px;
 margin-bottom: 25px;
 }
+
+
 }
 
 
@@ -450,7 +567,7 @@ margin-bottom: 25px;
   z-index: 2;
   min-width: 300px;
   margin-left: 550px;
-  color: teal;
+  color: rgb(0, 0, 0);
 }
 
 #hero1 h1 {
@@ -458,7 +575,7 @@ margin-bottom: 25px;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: teal;
+  color: rgb(0, 0, 0);
 
 }
 
@@ -740,17 +857,17 @@ color: white;
 --------------------------------------------------------------*/
 .contact {
   
-  background-image: url("../img/portfolio/portfolio-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../img/blank-bg.png");
+
 
 }
 
 .contact .info {
  
-  background: #fff;
+  background: rgb(38, 6, 151);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+
 }
 
 .contact .info i {
@@ -759,7 +876,7 @@ color: white;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #0c709e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -794,7 +911,7 @@ color: white;
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: rgb(30, 53, 180);
   line-height: 1;
   
   border-radius: 50%;
@@ -1081,7 +1198,7 @@ textarea {
 
 form {
   padding: 37.5px;
-  margin: 50px 0;
+  margin: 50px ;
 }
 
 h1 {
@@ -1225,7 +1342,7 @@ textarea {
 
 #bod {
   margin-left: 0px;
-  margin-top: -20px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1245,7 +1362,8 @@ textarea {
   }
   
   #form_button {
-    padding: 15px 25px;
+padding-left: 5px;
+margin-left: 75px;
   }
 }
 
