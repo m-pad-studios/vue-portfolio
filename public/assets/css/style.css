@@ -361,12 +361,10 @@ margin-bottom: 25px;
 --------------------------------------------------------------*/
 #hero-title {
   padding-top: 20px;
-
   width: 100%;
   height: 350px;
   background: url("../img/blank-bg.png");
-  background-size: cover;
- 
+
 }
 
 #hero-title:before {
@@ -376,12 +374,12 @@ margin-bottom: 25px;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+
 }
 
 #hero-title .hero-title-container {
   position: relative;
-  z-index: 2;
+
   min-width: 300px;
   margin-left: 550px;
 margin-bottom: 235px;
