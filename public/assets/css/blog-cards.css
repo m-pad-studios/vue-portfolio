@@ -551,7 +551,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .dark {
+  .dark-table {
     overflow-x: scroll;
   }
   #workout-table-2 {
