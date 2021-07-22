@@ -634,7 +634,7 @@ margin-bottom: 25px;
   margin-top: 20px;
   width: 100%;
   height: 350px;
-  background: url("../img/go-hard-blog/go-hard-1-big.jpg");
+  background: url("../img/go-hard-blog/go-hard-5.jpg");
   background-size: cover;
   color: white;
   
@@ -690,7 +690,7 @@ margin-bottom: 25px;
 @media (max-width: 768px) {
 
   #hero2 {
-    background: url("../img/go-hard-blog/go-hard-1-big.jpg");
+    background: url("../img/go-hard-blog/go-hard-5.jpg");
     padding-top: 20px;
     margin-top: 20px;
     margin-left: 50px;
@@ -810,7 +810,7 @@ margin-bottom: 25px;
   margin-top: 20px;
   width: 100%;
   height: 350px;
-  background: url("../img/go-hard-blog/go-hard-3.jpg");
+  background: url("../img/go-hard-blog/go-hard-4.jpg");
   background-size: cover;
   color: white;
 }
@@ -865,7 +865,7 @@ margin-bottom: 25px;
 @media (max-width: 768px) {
 
   #hero4 {
-    background: url("../img/go-hard-blog/go-hard-2.jpg");
+    background: url("../img/go-hard-blog/go-hard-4.jpg");
     padding-top: 20px;
     margin-top: 20px;
     margin-left: 50px;
@@ -953,7 +953,7 @@ margin-bottom: 25px;
 @media (max-width: 768px) {
 
   #hero5 {
-    background: url("../img/go-hard-blog/go-hard-2.jpg");
+    background: url("../img/go-hard-blog/go-hard-3.jpg");
     padding-top: 20px;
     margin-top: 20px;
     margin-left: 50px;
@@ -1518,6 +1518,32 @@ textarea {
 
 }
 
+
+#form_button_store {
+  background: none;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 25px 20px 0px;
+  margin-left: 600px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button_store:hover {
+  background: #2eec4e;
+  color: #F2F3EB;
+}
+
 @media screen and (max-width: 768px) {
   #container {
     margin: 20px auto;
@@ -1534,8 +1560,8 @@ textarea {
     width: 68px;
   }
   
-  #form_button {
-padding-left: 5px;
+  #form_button_store {
+
 margin-left: 75px;
   }
 }
