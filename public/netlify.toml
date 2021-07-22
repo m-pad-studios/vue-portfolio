@@ -2,7 +2,7 @@
 for = "/*"
 
 [headers.values]
-  Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none'; script-src-elem 'sha256-xB8KQ9znB/xULMtsjr37zpV3M7JR/XSq1HT6tWKn+G8='  https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0 https://platform.linkedin.com/in.js;  style-src-elem 'unsafe-inline'  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css; font-src 'self'; frame-src 'self' https://www.facebook.com/;"
+  Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none'; font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0; script-src 'self'; style-src 'self'  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css;"
           Referrer-Policy = "same-origin"
 Strict-Transport-Security = "max-age=15768000"
    X-Content-Type-Options = "nosniff"
