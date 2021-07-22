@@ -76,7 +76,7 @@ a:hover {
   text-align: center;
   font-size: 2.5rem;
   font-family: "Raleway", sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 #pageHeaderTitle2 {
@@ -85,7 +85,7 @@ a:hover {
   text-align: center;
   font-size: 2.5rem;
   font-family: "Raleway", sans-serif;
-
+color: black;
 }
 #author {
   text-align: center;
