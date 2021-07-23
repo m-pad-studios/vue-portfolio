@@ -2543,3 +2543,19 @@ Start of blogs.css
 /*
 End of blogs.css
 */
+
+/*
+Pagination start
+*/
+.container {
+  margin-top: 20px;
+}
+.page {
+  display: none;
+}
+.page-active {
+  display: block;
+}
+/*
+Pagination end
+*/
