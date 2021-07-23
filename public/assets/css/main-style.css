@@ -1817,6 +1817,7 @@ Start of blog-cards.css
     text-overflow: ellipsis;
     text-align: justify;
     height: 100%;
+    margin-left: 25px;
   }
   
   .postcard .postcard__tagbox {
