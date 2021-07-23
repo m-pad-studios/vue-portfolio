@@ -1,3 +1,6 @@
+/*
+Nav menu start
+*/
 !(function($) {
     "use strict";
 
@@ -12,9 +15,15 @@
       });
       
   })(jQuery);
+/*
+Nav menu end
+*/
 
 
 
+/*
+Pagination function start
+*/
 
   $(document).ready(function() {
     $('#pagination-demo').twbsPagination({
@@ -61,3 +70,7 @@
     });
     
     });
+
+    /*
+     Pagination function end
+     */
