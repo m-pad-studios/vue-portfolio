@@ -144,7 +144,22 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/menu-funcs.js"></script>
+  <script >
+    !(function($) {
+    "use strict";
+
+    $(document).on('click', '#navvy', function(e) {
+
+ document.getElementById("bod").style.marginLeft = "-300px"
+            $("#header").fadeOut();
+            if ($("#header").is(":hidden")) {
+                document.getElementById("bod").style.marginLeft = "0px"
+                $("#header").fadeIn();
+            }
+      });
+      
+  })(jQuery);
+  </script>
 
 
 </body>
