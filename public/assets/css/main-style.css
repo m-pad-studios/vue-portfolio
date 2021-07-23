@@ -1776,6 +1776,7 @@ Start of blog-cards.css
   
   .postcard .postcard__title {
     font-size: 1.75rem;
+    margin-left: 25px;
   }
   
   .postcard .postcard__img {
