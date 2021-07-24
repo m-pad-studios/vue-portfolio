@@ -1823,6 +1823,10 @@ Start of blog-cards.css
     height: 100%;
     margin-left: 25px;
   }
+
+  .postcard__preview-txt2 {
+    margin-right: 50px;
+  }
   
   .postcard .postcard__tagbox {
     display: -webkit-box;
