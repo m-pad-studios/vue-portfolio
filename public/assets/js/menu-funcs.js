@@ -3,6 +3,10 @@ Nav menu start
 */
 !(function($) {
     "use strict";
+  
+    document.getElementById("pagination-demo").style.margin = "20px 1px";
+    document.getElementById("pagination-demo").style.display = "flex";
+    
 
     $(document).on('click', '#navvy', function(e) {
 
@@ -51,6 +55,7 @@ Pagination function start
     // carousel-style pagination
     loop: false,
     
+
     // callback function
     onPageClick: function (event, page) {
        $('.page-active').removeClass('page-active');
@@ -67,8 +72,7 @@ Pagination function start
     firstClass: 'first',
     pageClass: 'page',
     activeClass: 'active',
-    disabledClass: 'disabled'
-    
+    disabledClass: 'disabled',
     });
     
     });

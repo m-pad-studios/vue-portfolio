@@ -2651,7 +2651,8 @@ End of blogs.css
 Pagination start
 */
 .container {
-  margin-top: 20px;
+  margin: 10px 20px;
+
 }
 .page {
   display: none;
@@ -2659,6 +2660,7 @@ Pagination start
 .page-active {
   display: block;
 }
+
 /*
 Pagination end
 */
