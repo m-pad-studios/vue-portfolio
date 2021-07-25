@@ -55,6 +55,8 @@ Pagination function start
     onPageClick: function (event, page) {
        $('.page-active').removeClass('page-active');
       $('#page'+page).addClass('page-active');
+      $('html, body').animate({scrollTop : 0});
+
     },
     
     // pagination Classes
