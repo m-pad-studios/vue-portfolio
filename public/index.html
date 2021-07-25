@@ -93,7 +93,7 @@
     </button>
 
 
-    <div class=" page" id="page1">
+    <div class=" page" id="page1" >
    
         <section class="dark">
             <div class="container py-4">
@@ -400,7 +400,7 @@
     </section>
      
      </div>
-     <ul id="pagination-demo" class="pagination-lg pull-right"></ul>
+     <ul id="pagination-demo" class="pagination-lg pull-right" onclick="toTop()"></ul>
    
   </main>
   <!-- End main -->
@@ -419,7 +419,11 @@
     </div>
   </footer>
   <!-- End  Footer -->
-
+<script>
+  function toTop() {
+  $('html, body').animate({scrollTop : 0});
+  }
+  </script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
