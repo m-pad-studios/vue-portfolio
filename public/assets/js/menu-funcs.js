@@ -5,8 +5,7 @@ Nav menu start
     "use strict";
   
     document.getElementById("pagination-demo").style.margin = "20px 1px";
-    document.getElementById("pagination-demo").style.display = "flex";
-    
+   
 
     $(document).on('click', '#navvy', function(e) {
 

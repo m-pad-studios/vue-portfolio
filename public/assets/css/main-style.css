@@ -6,7 +6,7 @@ Start of style.css
 # General
 --------------------------------------------------------------*/
 body {
-    margin-left: -300px;
+    margin-left: -330px;
   
   }
   h1, h2, h3, h4, h5, h6 {
@@ -1821,7 +1821,7 @@ Start of blog-cards.css
     text-overflow: ellipsis;
     text-align: justify;
     height: 100%;
-    margin-left: 25px;
+    margin-right: 12px;
   }
 
   .postcard__preview-txt2 {
