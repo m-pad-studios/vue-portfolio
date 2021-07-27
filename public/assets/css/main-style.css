@@ -1815,6 +1815,7 @@ Start of blog-cards.css
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+ 
   }
   
   .postcard .postcard__preview-txt {
@@ -1822,11 +1823,11 @@ Start of blog-cards.css
     text-overflow: ellipsis;
     text-align: justify;
     height: 100%;
-    margin-right: 12px;
+    margin-right: 15px;
   }
 
   .postcard__preview-txt2 {
-    margin-right: 50px;
+    margin-right: 5px;
   }
   
   .postcard .postcard__tagbox {
@@ -1902,7 +1903,7 @@ Start of blog-cards.css
       transition: transform 0.3s ease, -webkit-transform 0.3s ease;
     }
     .postcard .postcard__text {
-      padding: 3rem;
+      padding: 7rem;
       width: 100%;
     }
     .postcard .media.postcard__text:before {
