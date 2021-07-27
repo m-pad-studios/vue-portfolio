@@ -1654,7 +1654,8 @@ Start of blog-cards.css
     font-size: 16px;
     line-height: 2.5;
     text-indent: 30px;
-   
+   margin-left: 5px;
+   margin-right: 3px;
   }
   
   .date {
