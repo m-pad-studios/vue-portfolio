@@ -1,0 +1,321 @@
+
+/*--------------------------------------------------------------
+# stretch1 Section
+--------------------------------------------------------------*/
+#lift-live1 {
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/lift-blog/lift1-big.jpg");
+    background-size: cover;
+
+    color: white;
+  }
+  
+  #lift-live1:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  #lift-live1 .lift-live1-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+    margin-left: 550px;
+    color: rgb(0, 0, 0);
+  }
+  
+  #lift-live1 h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  #lift-live1 p {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #lift-live1 p span {
+    color: white;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  
+  
+  
+  @media (min-width: 1024px) {
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    #lift-live1 {
+      background: url("../img/lift-blog/lift1.jpg");
+      padding-top: 20px;
+      margin-top: 20px;
+      margin-left: 50px;
+      width: 100%;
+      height: 350px;
+      background-size: cover;
+      background-position: bottom;
+      background-position-y: 500px;
+      background-position-x: 100px;
+    }
+  
+    #lift-live1 h1 {
+      font-size: 15px;
+      line-height: 36px;
+      margin-left: 195px;
+    }
+    #lift-live1 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    
+  #lift-live1 .lift-live1-container {
+    margin-left: 0px;   
+  }
+  }
+
+  
+/*--------------------------------------------------------------
+# lift-live2 Section
+--------------------------------------------------------------*/
+#lift-live2 {
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+    background: url("../img/stretch-unwind-blog/stretch-2.jpg");
+    background-size: cover;
+    background-position: -100px -500px;
+    color: white;
+  }
+  
+  #lift-live2:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  #lift-live2 .lift-live2-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+    margin-left: 550px;
+    color: rgb(0, 0, 0);
+  }
+  
+  #lift-live2 h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  #lift-live2 p {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #lift-live2 p span {
+    color: white;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  
+  
+  
+  @media (min-width: 1024px) {
+    #lift-live2 {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  
+    #lift-live2 {
+      background: url("../img/stretch-unwind-blog/stretch-2.jpg");
+      padding-top: 20px;
+      margin-top: 20px;
+      margin-left: 50px;
+      width: 100%;
+      height: 550px;
+      background-size: cover;
+    
+    }
+  
+    #lift-live2 h1 {
+      font-size: 15px;
+      line-height: 36px;
+      margin-left: 195px;
+    }
+    #lift-live2 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    
+  #lift-live2 .lift-live2-container {
+    margin-left: 0px;   
+  }
+  }
+
+  /*--------------------------------------------------------------
+# lift-live3 Section
+--------------------------------------------------------------*/
+#lift-live3 {
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+    background: url("../img/stretch-unwind-blog/stretch-3.jpg");
+    background-size: cover;
+   
+    color: white;
+  }
+  
+  #lift-live3:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  #lift-live3 .lift-live3-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+    margin-left: 550px;
+    color: rgb(0, 0, 0);
+  }
+  
+  #lift-live3 h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  #lift-live3 p {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #lift-live3 p span {
+    color: white;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  
+  
+  
+  @media (min-width: 1024px) {
+    #lift-live3 {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  
+    #lift-live3 {
+      background: url("../img/stretch-unwind-blog/stretch-3.jpg");
+      padding-top: 20px;
+      margin-top: 20px;
+      margin-left: 50px;
+      width: 100%;
+      height: 550px;
+      background-size: cover;
+    
+    }
+  
+    #lift-live3 h1 {
+      font-size: 15px;
+      line-height: 36px;
+      margin-left: 195px;
+    }
+    #lift-live3 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    
+  #lift-live3 .lift-live3-container {
+    margin-left: 0px;   
+  }
+  }
+
+  .fa {
+ padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+  }
+
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
