@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "yarn serve",
+    "build": "yarn build",
     "lint": "vue-cli-service lint",
     "sass": "node-sass -w scss/ -o css/ --recursive"
   },
